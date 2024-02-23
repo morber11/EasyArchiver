@@ -1,20 +1,21 @@
 {
-    "manifest_version": 2,
-    "name": "Easy Archive.is Archiver",
-    "version": "1.0",
-    "description": "Archives the current page using Archive.is",
-    "icons": {
-      "48": "icon.png"
-    },
-    "background": {
-      "scripts": ["index.js"]
-    },
-    "browser_action": {
-      "default_icon": "icon.png",
-      "default_title": "Archive this page"
-    },
-    "permissions": [
-      "activeTab",
-      "contextMenus"
-    ]
-  }
+  "manifest_version": 3,
+  "name": "Easy Archive.is Archiver",
+  "version": "1.0",
+  "description": "Archives the current page using Archive.is",
+  "icons": {
+    "48": "icon.png"
+  },
+  "background": {
+    "service_worker": "index.js"
+  },
+  "action": {
+    "default_icon": "icon.png",
+    "default_title": "Archive this page"
+  },
+  "permissions": [
+    "activeTab",
+    "contextMenus",
+    "action"
+  ]
+}
