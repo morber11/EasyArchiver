@@ -4,7 +4,11 @@
 
 **EasyArchiver** is a user-friendly tool designed for archiving files using Archive.is.
 
-At the moment this is still in an experimental phase and is still awaiting publish to both the Firefox Add-ons and Chrome Web Store
+At the moment this is still in an experimental phase and is still awaiting release to the Chrome Web Store
+
+## Links
+### Firefox
+- https://addons.mozilla.org/en-US/firefox/addon/easy-archive-is-archiver/
 
 ## Building
 
@@ -14,7 +18,7 @@ This will create a new folder in the directory called `out` which contains the r
 
 It will also contain a .zip archive of all the relevant files.
 
-## Installation
+## Manual Installation
 
 After building the file, follow the steps below to add it to your browser:
 
