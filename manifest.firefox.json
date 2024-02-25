@@ -1,7 +1,7 @@
 {
     "manifest_version": 2,
     "name": "Easy Archive.is Archiver",
-    "version": "1.0",
+    "version": "1.1",
     "description": "Archives the current page using Archive.is",
     "icons": {
         "48": "icon.png"
